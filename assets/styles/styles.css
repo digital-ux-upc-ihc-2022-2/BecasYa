@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@1,200;1,400;1,700&family=Concert+One&family=Inter:wght@400;700&family=Montserrat+Alternates:ital,wght@0,700;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*** NAV SECTION ***/
+
+nav {
+  background-color: #ffff;
+  display: flex;
+  justify-content: space-between;
+}
+nav .nav__logo {
+  height: 60px;
+  width: 80px;
+  margin-left: 2.5vh;
+  margin-top: 1vh;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 30px 30px;
+  font-family: "Be Vietnam", sans-serif;
+}
+
+nav ul {
+  float: right;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 2vh 1vh;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  font-size: 17px;
+  color: #0d5c63;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+/******HEADER***********/
+
+header .banner {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  background: url("/assets/images/header/background.jpg") no-repeat center center/cover;
+}
+
+header .banner .banner__text {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  color: white;
+  background-color: rgba(13, 92, 99, 0.5);
+  padding: 15vh;
+  border-radius: 30px;
+  font-family: "Concert One", sans-serif;
+}
+
+header .banner .banner__text h1 {
+  font-size: 80px;
+  padding-bottom: 4vh;
+}
+
+header .banner .banner__text h2 {
+  font-size: 2.5vw;
+  font-family: "Be Vietnam", sans-serif;
+  font-weight: lighter;
+  padding-bottom: 12vh;
+}
+
+header .banner .banner__text button {
+  font-weight: bold;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 15px;
+}
