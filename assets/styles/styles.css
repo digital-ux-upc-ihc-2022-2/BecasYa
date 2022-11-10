@@ -9,7 +9,7 @@
 
 /***INICIO DE NAV***/
 nav {
-  background-color: #ffff;
+  background-color: rgb(236, 231, 231);
   display: flex;
   justify-content: space-between;
 }
@@ -41,7 +41,7 @@ nav ul li a {
 
 nav ul li a:hover {
   font-size: 17px;
-  color: #0d5c63;
+  color: #116f77;
   transition: 0.5s;
   font-weight: bold;
 }
