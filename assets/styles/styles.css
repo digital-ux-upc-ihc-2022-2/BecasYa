@@ -11,7 +11,6 @@
 
 nav ul {
   margin: 0 20px 20px 0;
-  padding: auto;
 }
 
 nav ul li:hover {
@@ -24,7 +23,7 @@ nav ul li:hover {
 
 header .banner {
   width: 100%;
-  height: 90vh;
+  height: 91vh;
   position: relative;
   background: url("../images/header/background.jpg") no-repeat center
     center/cover;
