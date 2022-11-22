@@ -233,6 +233,17 @@ header .banner .banner__text button {
   color: white;
 }
 
+.section__us h2 {
+  font-family: "Concert One", sans-serif;
+  text-shadow: 5px 4.5px #0d5c63;
+  font-size: 25px;
+  padding: 2.5rem;
+  color: white;
+}
+
+/**********INICIO FOOTER*****************/
+
+
 @media screen and (max-width: 990px) {
   header .banner .banner__text {
     padding: 8vh;
