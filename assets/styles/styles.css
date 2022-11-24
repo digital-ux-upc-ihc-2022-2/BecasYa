@@ -183,11 +183,19 @@ header .banner .banner__text button {
 }
 
 .section__aplicativo .aplicativo__calltoaction h2 {
-  margin-top: 20vh;
+  margin-top: 70px;
   font-size: 3.5vh;
   font-family: "Concert One", sans-serif;
   font-weight: bolder;
   padding-bottom: 2vh;
+  color: white;
+}
+
+.section__aplicativo h4 {
+  font-family: "Concert One", sans-serif;
+  text-shadow: 5px 4.5px #0d5c63;
+  font-size: 30px;
+  padding: 33px 50px;
   color: white;
 }
 .section__aplicativo .aplicativo__calltoaction p {
@@ -243,7 +251,6 @@ header .banner .banner__text button {
 
 /**********INICIO FOOTER*****************/
 
-
 @media screen and (max-width: 990px) {
   header .banner .banner__text {
     padding: 8vh;
@@ -268,6 +275,12 @@ header .banner .banner__text button {
   }
   .section__aplicativo .aplicativo__calltoaction p {
     font-size: 15px;
+  }
+  .section__aplicativo .aplicativo__calltoaction h2 {
+    margin-top: 5vh;
+  }
+  .section__aplicativo .aplicativo__calltoaction h4 {
+    padding: 2rem 3rem;
   }
 }
 @media screen and (max-width: 400px) {
@@ -294,6 +307,9 @@ header .banner .banner__text button {
   .section__aplicativo .aplicativo__calltoaction p {
     font-size: 15px;
   }
+  .section__aplicativo .aplicativo__calltoaction h2 {
+    margin-top: 2vh;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -311,6 +327,8 @@ header .banner .banner__text button {
   .section__aplicativo .aplicativo__calltoaction p {
     font-size: 15px;
   }
-
+  .section__aplicativo .aplicativo__calltoaction iframe {
+    height: 300px;
+    width: 400px;
+  }
 }
-
